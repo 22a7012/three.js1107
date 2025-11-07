@@ -1,5 +1,5 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js";
-import { DeviceOrientationControls } from "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/controls/DeviceOrientationControls.js";
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.module.js";
+import { DeviceOrientationControls } from "https://cdn.jsdelivr.net/npm/three@0.152.2/examples/jsm/controls/DeviceOrientationControls.js";
 
 let w, h;
 let canvas, scene, camera, renderer, object, controls;
@@ -206,3 +206,4 @@ window.onload = () => {
       console.log(error);
     });
 };
+
