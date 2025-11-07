@@ -68,8 +68,8 @@ const adjustVideo = () => {
   const videoWidth = video.videoWidth;
   const videoHeight = video.videoHeight;
 
-  let videoAspect: number = videoWidth / videoHeight;
-  let windowAspect: number = windowWidth / windowHeight;
+   let videoAspect = videoWidth / videoHeight;
+  let windowAspect = windowWidth / windowHeight;
 
   if (windowAspect < videoAspect) {
     let newWidth: number = videoAspect * windowHeight;
@@ -209,4 +209,5 @@ window.onload = () => {
     .catch((error) => {
       console.log(error);
     });
+
 };
